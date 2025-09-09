@@ -27,6 +27,24 @@ namespace Type {
 }
 
 
+namespace Type {
+
+    void printMessage() {
+        std::cout << "Function Rand Fine.." << std::endl;
+    }
+
+    void COMPLETED_FUNCTION() {
+        std::cout << "[COMPLETED]" << std::endl;
+    }
+
+    void printMessageIntro(const std::string& INTROMessage) {
+        std::cout << INTROMessage << std::endl;
+    }
+
+
+}
+void printMessage();
+
 std::string (*ANSWER)(const std::string*);
 
 
