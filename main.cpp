@@ -4,7 +4,10 @@
 #include "MyModule.h"
 #include <Windows.h>
 
+void printMessage();
+
 std::string (*ANSWER)(const std::string*);
+
 
 std::string isAnswer(const std::string *option) {
     return *option;
