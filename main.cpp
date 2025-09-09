@@ -20,7 +20,6 @@ namespace Type {
 
 
 }
-
 void printMessage();
 
 std::string (*ANSWER)(const std::string*);
